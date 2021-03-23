@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: black !important;
+}
+
+#nav {
+    background-color: black;
+    border-bottom: solid 2px white;
+    margin-bottom: 25px;
+}
+
+h1 {
+    margin: 0 !important;
+}
+
+.link {
+    color: white;
+    text-decoration: none !important;
+    border-radius: 0 0 10px 10px;
+}
+
+.link:hover {
+    color: rgb(56, 54, 54);
+}
+
+.title:hover {
+    color: white;
+}
+
+.selected {
+    background-color: gray;
+}
+
+.card-title {
+    text-align: center;
+}
+
+#myMap {
+    height: 100vh;
+    z-index: 10;
+}
